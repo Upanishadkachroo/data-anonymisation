@@ -1,0 +1,32 @@
+======================================================================
+ANONYMIZATION QUALITY ASSESSMENT REPORT
+======================================================================
+
+PCA-BASED QUALITY METRICS
+----------------------------------------
+Top 2 PCs: 24.1% -> 85.7% (Retention: 355.8%)
+Top 5 PCs: 42.5% -> 95.5% (Retention: 224.8%)
+Top 10 PCs: 61.6% -> 98.1% (Retention: 159.2%)
+Average Component Correlation: 0.006
+
+STATISTICAL PRESERVATION METRICS
+----------------------------------------
+Mean Correlation: 1.000
+Standard Deviation Correlation: 0.999
+Correlation Matrix Preservation: nan
+Average Reconstruction Error (MSE): 23802746308978.039
+Maximum Reconstruction Error (MSE): 689327786261249.125
+Distribution Similarity (KS Statistic): 0.391
+
+PRIVACY PROTECTION METRICS
+----------------------------------------
+Uniqueness Reduction: -3851.8%
+Variance Preservation: 120312.7%
+
+OVERALL ASSESSMENT
+----------------------------------------
+Data Utility Score: nan/100
+Privacy Protection Score: nan/100
+Overall Assessment: POOR - Consider re-evaluating anonymization parameters
+
+======================================================================
