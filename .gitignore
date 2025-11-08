@@ -1,2 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit / temporary files
+.streamlit/
+*.log
+
+# Binary or report outputs
+*.png
+*.txt
 *.csv
-*.sav
+*.pdf
+
+# Virtual environment
+venv/
+.env
