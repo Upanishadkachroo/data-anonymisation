@@ -217,7 +217,7 @@ done
 
 ---
 
-## 📈 Performance
+## Performance
 
 - Handles datasets up to **1GB**  
 - Optimized for efficient memory use  
