@@ -1,26 +1,13 @@
-<<<<<<< HEAD
-# 🛡️ Data Anonymization Dashboard
-
-A comprehensive **web application** for anonymizing sensitive data while preserving utility.  
-Built with **Streamlit**, this enterprise-grade tool ensures robust privacy through multiple anonymization techniques.
-=======
 # Data Anonymization Dashboard
 
 A comprehensive **web application** for anonymizing sensitive data while preserving utility.  
 Built with **Streamlit**, this enterprise-grade tool ensures robust privacy through multiple anonymization techniques.
 
 ---
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
----
+## Features
 
-<<<<<<< HEAD
-## 🚀 Features
-
-### 🧠 Core Functionality
-=======
 ### Core Functionality
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 - **Multi-step Anonymization Pipeline** – Guided process from upload to export  
 - **Risk Classification** – Automatic detection of sensitive columns  
 - **Multiple Techniques:**  
@@ -30,11 +17,7 @@ Built with **Streamlit**, this enterprise-grade tool ensures robust privacy thro
 - **Quality Assessment** – Privacy-utility tradeoff metrics  
 - **Watermark Protection** – Prevents re-anonymization  
 
-<<<<<<< HEAD
-### 🔐 Privacy Techniques
-=======
 ### Privacy Techniques
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 - **k-Anonymity:** Each record indistinguishable from k-1 others  
 - **Differential Privacy:** Adds calibrated noise for mathematical privacy guarantees  
 - **PCA Transformation:** Reduces dimensionality while maintaining data structure  
@@ -42,11 +25,7 @@ Built with **Streamlit**, this enterprise-grade tool ensures robust privacy thro
 
 ---
 
-<<<<<<< HEAD
-## 📊 Data Quality Metrics
-=======
 ## Data Quality Metrics
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 | Category | Metrics |
 |-----------|----------|
 | Statistical Preservation | Correlation, Mean Squared Error |
@@ -55,11 +34,7 @@ Built with **Streamlit**, this enterprise-grade tool ensures robust privacy thro
 
 ---
 
-<<<<<<< HEAD
-## ⚡ Quick Start
-=======
 ## Quick Start
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 ### Prerequisites
 - Python 3.8+  
@@ -80,11 +55,7 @@ Then open your browser and go to **http://localhost:8501**.
 
 ---
 
-<<<<<<< HEAD
-## 🧰 Required Dependencies
-=======
 ## Required Dependencies
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 ```
 streamlit>=1.28.0
 pandas>=2.0.0
@@ -96,11 +67,7 @@ scikit-learn>=1.2.0
 
 ---
 
-<<<<<<< HEAD
-## 📘 Usage Guide
-=======
 ## Usage Guide
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 ### Step 1: Data Setup
 - Upload your CSV file (only original, non-anonymized data)  
@@ -127,23 +94,14 @@ scikit-learn>=1.2.0
 
 ### Step 5: Results & Export
 - Download:  
-<<<<<<< HEAD
-  - ✅ Watermarked CSV (metadata included)  
-  - 🧾 Plain CSV (standard format)  
-=======
   - Watermarked CSV (metadata included)  
   - Plain CSV (standard format)  
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 - Generate **Quality Report (JSON)**  
 - Save and reuse configurations  
 
 ---
 
-<<<<<<< HEAD
-## 🔒 Privacy Protection Features
-=======
 ## Privacy Protection Features
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 ### Watermark System
 - Detects previously anonymized files  
@@ -159,11 +117,7 @@ scikit-learn>=1.2.0
 
 ---
 
-<<<<<<< HEAD
-## ⚙️ Configuration
-=======
 ## Configuration
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 | Parameter | Range | Default | Description |
 |------------|--------|----------|--------------|
@@ -178,25 +132,14 @@ scikit-learn>=1.2.0
 | 1 | Very High | Direct identifiers (SSN, Email, Phone) |
 | 2 | High | Quasi-identifiers (Age, Zipcode, Gender) |
 | 3 | Medium | Sensitive attributes (Salary, Diagnosis) |
-<<<<<<< HEAD
-| 4 | Low | Non-sensitive but unique attributes |
+<!--| 4 | Low | Non-sensitive but unique attributes |
 | 5 | Very Low | Public or aggregated data |
-
----
-
-## 📦 Output Formats
-
-### ✅ Watermarked CSV
-=======
-<!-- | 4 | Low | Non-sensitive but unique attributes |
-| 5 | Very Low | Public or aggregated data | -->
-
+-->
 ---
 
 ## Output Formats
 
 ### Watermarked CSV
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 ```
 # ANONYMIZATION_WATERMARK: {"anonymized": true, "timestamp": "...", "params": {...}}
 column1,column2,column3
@@ -204,11 +147,7 @@ value1,value2,value3
 ...
 ```
 
-<<<<<<< HEAD
-### 📑 Quality Report
-=======
 ### Quality Report
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 JSON format containing:
 - Statistical preservation scores  
 - Privacy protection levels  
@@ -216,11 +155,7 @@ JSON format containing:
 
 ---
 
-<<<<<<< HEAD
-## 🎯 Use Cases
-=======
 ## Use Cases
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 ### Healthcare
 - Patient record anonymization for research  
@@ -240,11 +175,7 @@ JSON format containing:
 
 ---
 
-<<<<<<< HEAD
-## 🧠 Advanced Usage
-=======
 ## Advanced Usage
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 ### Custom Anonymization Rules
 ```python
@@ -269,11 +200,7 @@ done
 
 ---
 
-<<<<<<< HEAD
-## 🛠️ Technical Architecture
-=======
 ## Technical Architecture
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 **Components**
 - Streamlit Web Interface  
@@ -290,24 +217,15 @@ done
 
 ---
 
-<<<<<<< HEAD
 ## 📈 Performance
-=======
-## Performance
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 - Handles datasets up to **1GB**  
 - Optimized for efficient memory use  
 - Preserves >80% correlation with ε < 1.0  
 
 ---
-<<<<<<< HEAD
-
-## 🤝 Contributing
-=======
 <!--
 ## Contributing
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 
 We welcome contributions! Please refer to the **Contributing Guidelines**.
 
@@ -327,10 +245,6 @@ python -m pytest --cov=src tests/
 ```
 
 ---
-<<<<<<< HEAD
-
-=======
 -->
->>>>>>> ee6a7b95120c3dddc5957c5455ae739a9a67d771
 **© 2025 Data Anonymization Dashboard**  
 _Protecting privacy while preserving insight._
